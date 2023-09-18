@@ -12,7 +12,7 @@
 
 ### Referência da imagem do projeto
 
-![Imagem contem uma pessoa de camisa laranja e calça azul em um ambiente destraído, parecendo uma sala de estar.](/Projeto-01/img/screenshot.png)
+![Imagem contem uma pessoa de camisa laranja e calça azul em um ambiente destraído, parecendo uma sala de estar.](/Stage-01/Projeto-01/img/screenshot.png)
 
 # Stage 02
 
@@ -28,4 +28,4 @@
 
 ### Referência da imagem do projeto
 
-![Imagem contem uma pessoa de camisa laranja e calça azul em um ambiente destraído, parecendo uma sala de estar.](/Stage-02/Desafio-01/screenshot.png)
+![Imagem contem uma pessoa de camisa laranja e calça azul em um ambiente destraído, parecendo uma sala de estar.](/Stage-02/Projeto-02/screenshot.png)
