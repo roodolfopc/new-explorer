@@ -28,4 +28,18 @@
 
 ### Referência da imagem do projeto
 
-![Imagem contem uma pessoa de camisa laranja e calça azul em um ambiente destraído, parecendo uma sala de estar.](/Stage-02/Projeto-02/screenshot.png)
+![Imagem contem uma pessoa de camisa laranja e calça azul em um ambiente destraído, parecendo uma sala de estar.](/Stage-02/Projeto-02-01/images/screenshot.png)
+
+## Projeto 02
+
+## Projeto da trilha Stage 02 - Recriando o Layout
+
+### Página criada utilizando as seguintes tecnologias
+
+#### - HTML
+
+#### - CSS
+
+### Referência da imagem do projeto
+
+![Imagem contem uma pessoa de camisa laranja e calça azul em um ambiente destraído, parecendo uma sala de estar.](/Stage-02/Projeto-02-02/images/screenshot.png)
