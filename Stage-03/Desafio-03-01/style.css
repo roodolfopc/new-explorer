@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: #efefef;
+}
+
+body::before {
+  content: "";
+  width: 100%;
+  height: 436px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background: #535971;
+}
+
+.page {
+  width: 750px;
+  margin: 0 auto;
+}
+
+header {
+  color: #fff;
+  margin-top: 140px;
+  width: 436px;
+}
+
+header h1 {
+  font-family: "Staatliches", sans-serif;
+  margin-bottom: 18px;
+
+  line-height: normal;
+  font-size: 48px;
+}
+
+header p {
+  font-family: "Poppins", sans-serif;
+  line-height: normal;
+  font-size: 20px;
+  width: 420px;
+
+  margin-bottom: 24px;
+}
+
+form {
+  background: #ffffff;
+  border-radius: 20px 20px 0 0;
+  min-height: 345px;
+
+  display: flex;
+  flex-direction: column;
+  padding: 64px;
+  gap: 80px;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset legend {
+  text-transform: uppercase;
+  font-family: "Staatliches", sans-serif;
+  font-size: 24px;
+  line-height: 34px;
+
+  color: #535971;
+
+  width: 100%;
+  border-bottom: 1px solid #e6e6f0;
+  margin-bottom: 36px;
+}
+
+fieldset label {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  width: 622px;
+
+  color: #4e4958;
+}
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.event-name-lastname {
+  display: flex;
+}
+
+.event-name-lastname textarea {
+  justify-content: space-around;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper label span {
+  font-size: 12px;
+  line-height: 20px;
+  font-family: "Poppins", sans-serif;
+  line-height: 20px;
+
+  color: #c1bccc;
+}
+
+.input-wrapper input,
+.input-wrapper textarea,
+.input-wrapper select {
+  border-radius: 8px;
+  border: 1px solid #e6e6f0;
+  background: #fafafc;
+
+  padding: 0 24px;
+
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #6c6a71;
+}
+
+.input-wrapper textarea {
+  padding: 8px;
+  height: 56px;
+}
+
+.available-time {
+  display: flex;
+  gap: 8px;
+}
+
+.available-time > div:nth-child(1) {
+  width: 100%;
+}
+
+footer {
+  background: #535971;
+
+  height: 160px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 50px 70px;
+  margin-bottom: 64px;
+
+  border: 1px solid #d6d6d6;
+  border-radius: 0px 0px 8px 8px;
+}
+
+.submit-button {
+  font-family: "Archivo", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  height: 56px;
+  width: 420px;
+
+  background: #f58ea3;
+  color: #ffffff;
+  opacity: 0.5;
+
+  border: 0;
+  border-radius: 8px;
+}
+
+.submit-button:hover {
+  background: #ff5374;
+  opacity: 1;
+  cursor: pointer;
+}
+
+input:invalid {
+  border: 2px solid #ee4e4e;
+}
